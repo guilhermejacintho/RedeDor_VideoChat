@@ -1,0 +1,1539 @@
+.container {
+    margin-top: 5%
+}
+
+h1 {
+    border: none;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 39px;
+    color: #3399cc;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    /* float: left; */
+    background-color: #019cd2;
+    color: #fff;
+    /* text-shadow: 0 1px rgba(0, 0, 0, 0.4); */
+    /* box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.3); */
+    padding: 14px 24px;
+    font-size: 12px;
+    line-height: 100%;
+    border-radius: 0;
+    outline: 0;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+iframe {
+    float: left;
+    clear: both;
+}
+
+ul.escolha-rede[_ngcontent-serverApp-c51] {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 20px;
+    height: 84px;
+    border-bottom: 1px solid #e0e0e0
+}
+
+ul.escolha-rede[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+    display: -webkit-box;
+    display: flex;
+    padding-top: 15px
+}
+
+ul.escolha-rede[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:first-child {
+    padding-top: 0
+}
+
+ul.escolha-rede[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    padding: 0 20px
+}
+
+@media only screen and (max-width:1023px) {
+    ul.escolha-rede[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        padding: 0 12px
+    }
+}
+
+ul.escolha-rede[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a.active[_ngcontent-serverApp-c51], ul.escolha-rede[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+    border-bottom: 3px solid #df8d2c
+}
+
+ul.links-portal[_ngcontent-serverApp-c51] {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 15px
+}
+
+@media only screen and (max-width:1023px) {
+    ul.links-portal[_ngcontent-serverApp-c51] {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column
+    }
+}
+
+ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+    text-align: center
+}
+
+ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:first-child {
+    width: 143px
+}
+
+@media only screen and (max-width:1023px) {
+    ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:first-child {
+        width: 100%
+    }
+}
+
+ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:nth-child(2) {
+    width: 198px
+}
+
+@media only screen and (max-width:1023px) {
+    ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:nth-child(2) {
+        width: 100%
+    }
+}
+
+ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:nth-child(3) {
+    width: 158px
+}
+
+@media only screen and (max-width:1023px) {
+    ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51], ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:nth-child(3) {
+        width: 100%
+    }
+}
+
+ul.links-portal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a.btrede[_ngcontent-serverApp-c51] {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 8px 0;
+    border: 1px solid #004186;
+    color: #004186;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: .875em;
+    font-weight: 700
+}
+
+@media only screen and (min-width:1024px) {
+    header.app-header[_ngcontent-serverApp-c51] {
+        width: 100%;
+        height: 130px;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_header.png) repeat-x 0 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: visible;
+        z-index: 9999
+    }
+    header.app-header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 90%;
+        max-width: 1230px;
+        margin: 0 auto;
+        overflow: visible;
+        height: 40px
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.no-show[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.no-show-onco[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .no-show[_ngcontent-serverApp-c51] {
+        display: none
+    }
+    header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .onco-clinicas[_ngcontent-serverApp-c51] {
+        display: block;
+        float: left;
+        margin: 6px 38px 0 0
+    }
+    header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] {
+        display: block;
+        float: left;
+        margin: 11px 0 0;
+        font-size: .875em;
+        position: relative
+    }
+    header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a#abrelocal[_ngcontent-serverApp-c51] {
+        color: #004186;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 0 20px 0 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_blue.png) no-repeat 100%;
+        display: inline-block;
+        position: relative;
+        cursor: pointer
+    }
+    header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_blue.png) no-repeat 100%!important
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 90%;
+        max-width: 1230px;
+        margin: 0 auto;
+        overflow: visible;
+        height: 90px;
+        position: relative
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] .logo[_ngcontent-serverApp-c51] {
+        position: absolute;
+        left: 0;
+        top: 20px;
+        z-index: 5;
+        width: 90px;
+        height: auto
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 5
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        float: left;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        text-align: left
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] {
+        padding-top: 16px
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] a[class*=rdsl-button][_ngcontent-serverApp-c51] {
+        width: 134px;
+        height: auto;
+        line-height: 1.3em;
+        padding: 2px 0 4px 10px
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] a[class*=rdsl-button][_ngcontent-serverApp-c51] rdsl-icon[_ngcontent-serverApp-c51] {
+        width: 48px;
+        height: 48px;
+        margin-right: 0;
+        margin-left: 4px
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-busca[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-menu[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] a.btnAgTel[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] a.fecha-menu[_ngcontent-serverApp-c51] {
+        display: none
+    }
+    header[_ngcontent-serverApp-c51] nav[_ngcontent-serverApp-c51] {
+        width: 90%;
+        max-width: 1230px;
+        height: 0;
+        margin: 0 auto;
+        position: relative;
+        overflow: visible;
+        z-index: 5
+    }
+    header[_ngcontent-serverApp-c51] img.logo-menu[_ngcontent-serverApp-c51] {
+        display: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] {
+        margin: -55px 0 0 135px;
+        padding-left: 12px
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        float: left;
+        margin: 0 24px 0 0;
+        position: relative;
+        padding: 0 0 10px;
+        border: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #fff;
+        font-size: .875em;
+        text-transform: uppercase
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #ea8b1d
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        padding: 0 20px 10px 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat right 5px
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51]:hover a[_ngcontent-serverApp-c51] {
+        border-bottom: 2px solid #fff
+    }
+}
+
+@media only screen and (min-width:1024px)and (min-width:1024px)and (max-width:1290px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        margin: 0 10px 0 0
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        font-size: .75em
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat 95% 2px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] {
+        display: block;
+        width: auto;
+        position: absolute;
+        right: 0;
+        top: -65px
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        margin: 0 0 0 30px;
+        position: relative;
+        padding: 0 0 11px
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #4f4f4f;
+        font-size: .875em;
+        font-weight: 400
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #ea8b1d
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_grey.png) no-repeat 100%!important
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child a[_ngcontent-serverApp-c51] {
+        padding: 0 20px 0 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_grey.png) no-repeat 100%;
+        display: inline-block;
+        position: relative
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li.telConsultExames[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        font-weight: 500
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] {
+        display: none;
+        visibility: hidden;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51]:hover .submenu[_ngcontent-serverApp-c51] {
+        display: block;
+        z-index: 888;
+        visibility: visible;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        background: #fff;
+        min-width: 270px;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 4px 4px 12px -5px #000
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] ul[_ngcontent-serverApp-c51] {
+        margin: 10px 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        padding: 10px 0;
+        float: none;
+        border: none;
+        margin: 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        color: #000;
+        background: none;
+        border-bottom: none;
+        padding: 0 0 0 29px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #ea8b1d
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51]:hover .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        border-bottom: none
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] {
+        display: none;
+        visibility: hidden;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child:hover .submenu[_ngcontent-serverApp-c51] {
+        display: block;
+        z-index: 888;
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        top: 30px;
+        background: #fff;
+        min-width: 220px;
+        -webkit-border-bottom-right-radius: 4px;
+        -webkit-border-bottom-left-radius: 4px;
+        -moz-border-radius-bottomright: 4px;
+        -moz-border-radius-bottomleft: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        box-shadow: 4px 4px 12px -5px #000
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] ul[_ngcontent-serverApp-c51] {
+        margin: 10px 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        padding: 10px 0;
+        float: none;
+        border: none;
+        margin: 0;
+        display: block
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: block;
+        color: #000;
+        background: none;
+        border-bottom: none;
+        padding: 0 29px 0 0;
+        text-align: right
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #ea8b1d
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child:hover .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        border-bottom: none
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-busca[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 31px;
+        height: 31px;
+        text-indent: -9999em;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_white.png) no-repeat 0 0;
+        margin: 30px 20px 0 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] {
+        display: none;
+        width: 90%;
+        max-width: 1230px;
+        height: 56px;
+        position: relative;
+        margin: 55px auto 0;
+        z-index: 5656
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] #exibe-busca.aberto[_ngcontent-serverApp-c51] {
+        display: block
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] input.busca[_ngcontent-serverApp-c51] {
+        width: 200px;
+        padding: 5px;
+        right: 40px;
+        border-left: 1px solid #ccc
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] button.lupa[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] input.busca[_ngcontent-serverApp-c51] {
+        height: 56px;
+        position: absolute;
+        top: 0;
+        border-bottom: 1px solid #ccc
+    }
+    header[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] button.lupa[_ngcontent-serverApp-c51] {
+        width: 40px;
+        background: #fff url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_blue.png) no-repeat 50%;
+        padding: 0;
+        right: 0;
+        text-align: left;
+        text-indent: -9999em;
+        cursor: pointer;
+        border-right: 1px solid #ccc
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-entrar[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 32px;
+        height: 32px;
+        text-indent: -9999em;
+        background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.2 10.8V9.4H8.3V7.3H9.7V9.4H11.8V10.8H9.7V12.9H8.3V10.8H6.2Z" fill="rgb(255, 255, 255)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.2 0.7H13.8V0H15.2V0.7H16.6C17.3732 0.7 18 1.3268 18 2.1V14.6C18 15.3732 17.3732 16 16.6 16H1.4C0.626801 16 0 15.3732 0 14.6V2.1C0 1.3268 0.626801 0.7 1.4 0.7H2.8V0H4.2V0.7ZM2.8 2.8H4.2V2.09999H13.8V2.8H15.2V2.09999H16.6V4.2H1.4V2.09999H2.8V2.8ZM1.4 5.6V14.6H16.6V5.6H1.4Z" fill="rgb(255, 255, 255)"/></svg>') no-repeat top;
+        background-size: 100% auto;
+        text-align: left;
+        margin: 30px 0 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-entrar[_ngcontent-serverApp-c51]:hover {
+        background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.2 10.8V9.4H8.3V7.3H9.7V9.4H11.8V10.8H9.7V12.9H8.3V10.8H6.2Z" fill="rgb(234, 139, 29)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.2 0.7H13.8V0H15.2V0.7H16.6C17.3732 0.7 18 1.3268 18 2.1V14.6C18 15.3732 17.3732 16 16.6 16H1.4C0.626801 16 0 15.3732 0 14.6V2.1C0 1.3268 0.626801 0.7 1.4 0.7H2.8V0H4.2V0.7ZM2.8 2.8H4.2V2.09999H13.8V2.8H15.2V2.09999H16.6V4.2H1.4V2.09999H2.8V2.8ZM1.4 5.6V14.6H16.6V5.6H1.4Z" fill="rgb(234, 139, 29)"/></svg>') no-repeat top
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-tel[_ngcontent-serverApp-c51] {
+        display: block;
+        width: auto;
+        height: 56px;
+        background: #91d8f6 url('data:image/svg+xml;utf8,<svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.1633 16.7411C18.9737 15.91 18.9737 14.8018 18.1633 13.992L15.9453 11.7757C15.5614 11.3708 15.0922 11.1577 14.5804 11.1577C14.0899 11.1577 13.6207 11.3708 13.2155 11.7757L11.9359 13.0544C11.8292 12.9904 11.7226 12.9478 11.616 12.8839C11.4667 12.8199 11.3387 12.7347 11.2108 12.6708C10.0165 11.9249 8.92882 10.9233 7.90514 9.66598C7.3933 9.02666 7.05207 8.4939 6.81748 7.93982C7.13738 7.64147 7.45728 7.32182 7.75585 7.02347C7.86249 6.91692 7.99044 6.78905 8.09708 6.6825C8.50228 6.2776 8.73688 5.78746 8.73688 5.29731C8.73688 4.80717 8.52361 4.33834 8.09708 3.91213L7.00942 2.80398C6.88146 2.67612 6.7535 2.54825 6.64687 2.42039C6.41227 2.16466 6.15635 1.90894 5.90044 1.67452C5.51656 1.29093 5.04737 1.07782 4.55686 1.07782C4.06634 1.07782 3.59716 1.29093 3.19195 1.67452L1.80572 3.0597C1.29388 3.57116 0.995309 4.18916 0.931329 4.91372C0.846023 6.0858 1.18725 7.17264 1.44317 7.8972C2.08297 9.64467 3.06399 11.2856 4.5142 13.033C6.28431 15.1428 8.39565 16.7837 10.8056 17.9558C11.7226 18.4033 12.9596 18.9148 14.3458 19C14.4311 19 14.5164 19 14.6017 19C15.5187 19 16.3078 18.659 16.905 17.9984L16.9263 17.9771C17.1396 17.7214 17.3742 17.487 17.6301 17.2525C17.822 17.1034 17.9926 16.9329 18.1633 16.7411ZM16.905 16.5067C16.6491 16.7624 16.3718 17.0181 16.1372 17.3165C15.732 17.764 15.2415 17.9558 14.623 17.9558C14.559 17.9558 14.4951 17.9558 14.4311 17.9558C13.2368 17.8492 12.1278 17.4017 11.2747 16.9968C8.9928 15.8887 7.00942 14.333 5.34594 12.3511C3.98104 10.7102 3.06399 9.17583 2.44552 7.53492C2.06164 6.53333 1.93368 5.74483 1.99766 5.02028C2.04031 4.55144 2.23225 4.16785 2.55215 3.82688L3.91706 2.46301C4.109 2.27121 4.32226 2.16466 4.53553 2.16466C4.79145 2.16466 5.00472 2.31384 5.154 2.46301C5.40992 2.69743 5.62319 2.93184 5.87911 3.18757C6.00707 3.31543 6.13503 3.4433 6.26299 3.57116L7.35065 4.658C7.56391 4.8711 7.67055 5.08421 7.67055 5.29731C7.67055 5.51042 7.56391 5.72352 7.35065 5.93663C7.24401 6.04318 7.11605 6.17105 7.00942 6.2776C6.66819 6.61857 6.34829 6.93823 6.00707 7.25788L5.98574 7.27919C5.64452 7.62016 5.7085 7.96113 5.77248 8.17424C5.77248 8.19555 5.77248 8.19555 5.7938 8.21686C6.07105 8.8988 6.47625 9.55942 7.09473 10.3266C8.20371 11.6905 9.37668 12.756 10.6563 13.5658C10.8269 13.6724 10.9975 13.7576 11.1468 13.8428C11.2961 13.9068 11.424 13.992 11.552 14.056C11.5733 14.056 11.5733 14.0773 11.5946 14.0773C11.7226 14.1412 11.8506 14.1838 11.9785 14.1838C12.2984 14.1838 12.5117 13.9707 12.5757 13.9068L13.9619 12.5216C14.0899 12.3937 14.3245 12.2232 14.5804 12.2232C14.8363 12.2232 15.0282 12.3937 15.1775 12.5216L17.3955 14.7379C17.9073 15.2493 17.6727 15.7182 17.3742 16.0165C17.2462 16.187 17.0756 16.3362 16.905 16.5067ZM10.7629 3.86951C10.8056 3.57116 11.0828 3.37936 11.3814 3.44329C12.661 3.6564 13.8126 4.2531 14.7297 5.19076C15.6467 6.12842 16.2439 7.27919 16.4784 8.53652C16.5211 8.83487 16.3292 9.1119 16.0519 9.15452C16.0306 9.15452 15.9879 9.15452 15.9666 9.15452C15.7107 9.15452 15.4761 8.96273 15.4334 8.707C15.2628 7.66278 14.751 6.6825 13.9832 5.93663C13.2155 5.16945 12.2558 4.67931 11.2108 4.48751C10.8909 4.44489 10.6989 4.16785 10.7629 3.86951ZM18.867 8.55783C18.5471 6.6825 17.6514 4.97765 16.3078 3.61378C14.9429 2.2499 13.2368 1.37617 11.3601 1.05651C11.0615 1.01389 10.8695 0.736855 10.9335 0.438507C10.9975 0.140159 11.2534 -0.0516359 11.552 0.0122957C13.6207 0.353265 15.5401 1.33355 17.0543 2.8466C18.5685 4.35965 19.5708 6.2776 19.912 8.36603C19.9547 8.66438 19.7627 8.94142 19.4855 8.98404C19.4642 8.98404 19.4215 8.98404 19.4002 8.98404C19.1443 9.00535 18.9097 8.81355 18.867 8.55783Z" fill="rgba(0,65,134,1)"/></svg>') no-repeat 7px;
+        background-size: 30px auto;
+        text-align: left;
+        margin: 18px 0 0;
+        padding: 12px 12px 0 45px;
+        color: #004186;
+        font-size: .7em;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 4px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-tel[_ngcontent-serverApp-c51] span[_ngcontent-serverApp-c51] {
+        display: block;
+        font-size: 1.5em
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] {
+        width: 100%;
+        height: 130px;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_header_unidade.gif) repeat-x 0 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: visible;
+        z-index: 9999;
+        border-bottom: 1px solid #ccc
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] {
+        color: #fff
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a#abrelocal[_ngcontent-serverApp-c51] {
+        color: #fff;
+        font-weight: 700;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat 100%
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_white.png) no-repeat 100%!important
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #fff;
+        font-size: .875em
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #ea8b1d
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_white.png) no-repeat 100%!important
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child a[_ngcontent-serverApp-c51] {
+        padding: 0 20px 0 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat 100%;
+        display: inline-block;
+        position: relative
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] {
+        display: none;
+        visibility: hidden;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child:hover .submenu[_ngcontent-serverApp-c51] {
+        display: block;
+        z-index: 888;
+        visibility: visible;
+        position: absolute;
+        left: -114px;
+        top: 30px;
+        background: #fff;
+        min-width: 220px;
+        -webkit-border-bottom-right-radius: 4px;
+        -webkit-border-bottom-left-radius: 4px;
+        -moz-border-radius-bottomright: 4px;
+        -moz-border-radius-bottomleft: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        box-shadow: 4px 4px 12px -5px #000
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] ul[_ngcontent-serverApp-c51] {
+        margin: 10px 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        padding: 10px 0;
+        float: none;
+        border: none;
+        margin: 0;
+        display: block
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: block;
+        color: #000;
+        background: none;
+        border-bottom: none;
+        padding: 0 29px 0 0;
+        text-align: right
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #ea8b1d
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child:hover .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        border-bottom: none
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:nth-child(2) .submenu[_ngcontent-serverApp-c51] {
+        display: none;
+        visibility: hidden;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        width: 430px;
+        padding: 0 20px 20px 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:nth-child(2) .submenu[_ngcontent-serverApp-c51] ul[_ngcontent-serverApp-c51] {
+        display: -webkit-box;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:nth-child(2) .submenu[_ngcontent-serverApp-c51] ul[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        width: 45%
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #004186;
+        font-size: .875em;
+        text-transform: uppercase
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #ea8b1d
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        padding: 0 20px 10px 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_blue.png) no-repeat right 3px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51]:hover a[_ngcontent-serverApp-c51] {
+        border-bottom: 2px solid #fff
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        padding: 0 0 11px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        color: #000;
+        background: none;
+        border-bottom: none;
+        padding: 0 0 0 29px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #ea8b1d
+    }
+}
+
+@media only screen and (min-width:1024px)and (min-width:1024px)and (max-width:1290px) {
+    header.unidade[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        font-size: .75em
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] input.busca[_ngcontent-serverApp-c51] {
+        width: 160px;
+        height: 56px;
+        background: #fff;
+        border-left: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 5px 5px 5px 16px;
+        -webkit-border-top-left-radius: 4px;
+        -webkit-border-bottom-left-radius: 4px;
+        -moz-border-radius-topleft: 4px;
+        -moz-border-radius-bottomleft: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        position: absolute;
+        right: 190px;
+        top: 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] button.lupa[_ngcontent-serverApp-c51] {
+        width: 40px;
+        height: 56px;
+        background: #fff url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_blue.png) no-repeat 50%;
+        border-right: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 0;
+        -webkit-border-top-right-radius: 4px;
+        -webkit-border-bottom-right-radius: 4px;
+        -moz-border-radius-topright: 4px;
+        -moz-border-radius-bottomright: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        position: absolute;
+        right: 150px;
+        top: 0;
+        text-align: left;
+        text-indent: -9999em;
+        cursor: pointer
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] .logo[_ngcontent-serverApp-c51] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        width: 120px;
+        height: 90px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-busca[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 31px;
+        height: 31px;
+        text-indent: -9999em;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_blue.png) no-repeat 0 0;
+        margin: 30px 20px 0 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] input.busca[_ngcontent-serverApp-c51] {
+        width: 200px;
+        height: 56px;
+        padding: 5px;
+        position: absolute;
+        right: 40px;
+        top: 0;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] button.lupa[_ngcontent-serverApp-c51] {
+        width: 40px;
+        height: 56px;
+        background: #fff url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_blue.png) no-repeat 50%;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-align: left;
+        text-indent: -9999em;
+        cursor: pointer;
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-entrar[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 32px;
+        height: 32px;
+        text-indent: -9999em;
+        background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.2 10.8V9.4H8.3V7.3H9.7V9.4H11.8V10.8H9.7V12.9H8.3V10.8H6.2Z" fill="rgb(0, 65, 134)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.2 0.7H13.8V0H15.2V0.7H16.6C17.3732 0.7 18 1.3268 18 2.1V14.6C18 15.3732 17.3732 16 16.6 16H1.4C0.626801 16 0 15.3732 0 14.6V2.1C0 1.3268 0.626801 0.7 1.4 0.7H2.8V0H4.2V0.7ZM2.8 2.8H4.2V2.09999H13.8V2.8H15.2V2.09999H16.6V4.2H1.4V2.09999H2.8V2.8ZM1.4 5.6V14.6H16.6V5.6H1.4Z" fill="rgb(0, 65, 134)"/></svg>') no-repeat 0 0;
+        background-size: 100% auto;
+        text-align: left;
+        margin: 30px 0 0
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.unidade[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-entrar[_ngcontent-serverApp-c51]:hover {
+        background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.2 10.8V9.4H8.3V7.3H9.7V9.4H11.8V10.8H9.7V12.9H8.3V10.8H6.2Z" fill="rgb(234, 139, 29)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.2 0.7H13.8V0H15.2V0.7H16.6C17.3732 0.7 18 1.3268 18 2.1V14.6C18 15.3732 17.3732 16 16.6 16H1.4C0.626801 16 0 15.3732 0 14.6V2.1C0 1.3268 0.626801 0.7 1.4 0.7H2.8V0H4.2V0.7ZM2.8 2.8H4.2V2.09999H13.8V2.8H15.2V2.09999H16.6V4.2H1.4V2.09999H2.8V2.8ZM1.4 5.6V14.6H16.6V5.6H1.4Z" fill="rgb(234, 139, 29)"/></svg>') no-repeat 0 0;
+        background-size: 100% auto
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.onco[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_header_onco.png) repeat-x 0 0!important
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.onco[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a#abrelocal[_ngcontent-serverApp-c51] {
+        color: #75bfba
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.onco[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] .logo[_ngcontent-serverApp-c51] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        width: 120px;
+        height: 90px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.onco[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover, header.onco[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover, header.onco[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover, header.onco[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #91d8f6
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_header_clinicas.png) repeat-x 0 0!important;
+        border-bottom: 1px solid #ccc
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] {
+        color: #fff
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a#abrelocal[_ngcontent-serverApp-c51] {
+        color: #75bfba;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat 100%
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_white.png) no-repeat 100%!important
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] .logo[_ngcontent-serverApp-c51] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        width: 120px;
+        height: 90px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #004186
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #91d8f6
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        padding: 0 20px 10px 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_blue.png) no-repeat right 3px
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #91d8f6
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child a[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat 100%
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #fff
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover, header.clinica[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #91d8f6
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    header.app-header[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 100%;
+        height: 120px;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_header.gif) repeat-x 0 0;
+        overflow: visible;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999
+    }
+    header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 92%;
+        margin: 0 auto;
+        overflow: visible;
+        height: 40px
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.no-show[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.no-show-onco[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .no-show[_ngcontent-serverApp-c51], header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .onco-clinicas[_ngcontent-serverApp-c51] {
+        display: none
+    }
+    header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] {
+        display: block;
+        float: none;
+        padding: 3px 0 0;
+        font-size: .875em;
+        position: relative;
+        margin: 0 0 0 5px
+    }
+    header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a#abrelocal[_ngcontent-serverApp-c51] {
+        clear: both;
+        color: #004186;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 0 20px 0 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_blue.png) no-repeat 100%;
+        display: inline-block;
+        width: auto;
+        position: relative
+    }
+    header[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_blue.png) no-repeat 100%!important
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 90%;
+        max-width: 1230px;
+        margin: 0 auto;
+        overflow: visible;
+        height: 80px;
+        position: relative
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] img.logo[_ngcontent-serverApp-c51] {
+        position: absolute;
+        left: 0;
+        top: 14px;
+        width: 90px;
+        height: auto
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] {
+        position: absolute;
+        top: 0;
+        right: 0
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        float: right;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        text-align: leNavft
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] {
+        margin-right: 16px;
+        padding-top: 22px
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] a[class*=rdsl-button][_ngcontent-serverApp-c51] {
+        width: auto;
+        height: auto;
+        padding: 2px 10px 4px;
+        border: none;
+        display: inline-block
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] a[class*=rdsl-button][_ngcontent-serverApp-c51] span[_ngcontent-serverApp-c51] {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] a[class*=rdsl-button][_ngcontent-serverApp-c51] rdsl-icon[_ngcontent-serverApp-c51] {
+        width: 32px;
+        height: 32px;
+        margin: 0
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] ul.navegacao[_ngcontent-serverApp-c51] li.navBtns[_ngcontent-serverApp-c51] a[class*=rdsl-button][_ngcontent-serverApp-c51]:hover {
+        box-shadow: none
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-menu[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 28px;
+        height: 28px;
+        text-indent: -9999em;
+        background: url('data:image/svg+xml;utf8,<svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.11479 8.52476C0.11479 8.05137 0.498546 7.66761 0.971933 7.66761H18.0282C18.5016 7.66761 18.8854 8.05137 18.8854 8.52476C18.8854 8.99814 18.5016 9.3819 18.0282 9.3819H0.971933C0.498546 9.3819 0.11479 8.99814 0.11479 8.52476Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0.11479 15.3473C0.11479 14.8739 0.498546 14.4901 0.971933 14.4901H18.0282C18.5016 14.4901 18.8854 14.8739 18.8854 15.3473C18.8854 15.8206 18.5016 16.2044 18.0282 16.2044H0.971933C0.498546 16.2044 0.11479 15.8206 0.11479 15.3473Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0.114685 1.70211C0.114685 1.22873 0.498441 0.844971 0.971828 0.844971H18.0281C18.5015 0.844971 18.8853 1.22873 18.8853 1.70211C18.8853 2.1755 18.5015 2.55926 18.0281 2.55926H0.971828C0.498441 2.55926 0.114685 2.1755 0.114685 1.70211Z" fill="white"/></svg>') no-repeat 0 0;
+        background-size: 100% auto;
+        margin: 28px 0 0
+    }
+    nav[_ngcontent-serverApp-c51] {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: 8554;
+        overflow: auto;
+        background: #fff;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+        -webkit-transition: all .35s ease-out;
+        transition: all .35s ease-out
+    }
+    .menu-active[_ngcontent-serverApp-c51] nav[_ngcontent-serverApp-c51] {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+    header[_ngcontent-serverApp-c51] img.logo-menu[_ngcontent-serverApp-c51] {
+        float: left;
+        margin: 0 0 0 5%;
+        width: 30%;
+        height: auto
+    }
+    header[_ngcontent-serverApp-c51] a.fecha-menu[_ngcontent-serverApp-c51] {
+        display: block;
+        float: right;
+        color: #000;
+        text-align: right;
+        padding: 10px 30px 10px 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_fechar_menu.png) no-repeat 95%;
+        font-size: .875em;
+        margin: 15px 5% 10px 0
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] {
+        margin: 10px 5%;
+        border-top: 1px dotted #ccc;
+        clear: both
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        float: none;
+        margin: 25px 0;
+        position: relative;
+        padding: 0;
+        border: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #4f4f4f;
+        font-size: 1em;
+        text-transform: uppercase;
+        display: block
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #004186
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropright_grey.png) no-repeat 100%
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_blue.png) no-repeat 100%
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] {
+        display: block;
+        width: auto;
+        position: relative;
+        overflow: hidden
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        display: block;
+        margin: 25px 15px;
+        position: relative;
+        float: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #4f4f4f;
+        font-size: 1em;
+        text-transform: uppercase;
+        display: block
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #004186
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_grey.png) no-repeat 100%!important
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li.telConsultExames[_ngcontent-serverApp-c51] {
+        display: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child a[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropright_grey.png) no-repeat 100%
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child a[_ngcontent-serverApp-c51]:hover {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_blue.png) no-repeat 100%
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] {
+        margin: 0 15px 25px
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] {
+        display: none;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] .submenu.active[_ngcontent-serverApp-c51] {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 5px 0 0;
+        border-top: 1px solid #004186
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        padding: 12px 0;
+        float: none;
+        border: none;
+        margin: 0
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child {
+        padding: 12px 0 0
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        color: #4f4f4f;
+        font-size: 1em;
+        background: none;
+        border-bottom: none;
+        padding: 0 0 0 30px;
+        text-transform: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        background: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51]:hover .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        border-bottom: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] {
+        display: none;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child:hover .submenu[_ngcontent-serverApp-c51] {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 5px 0 0;
+        border-top: 1px solid #004186
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] {
+        padding: 12px 0;
+        float: none;
+        border: none;
+        margin: 0
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child {
+        padding: 12px 0 0
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        color: #4f4f4f;
+        font-size: 1em;
+        background: none;
+        border-bottom: none;
+        padding: 0 0 0 30px;
+        text-transform: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        background: none
+    }
+    header[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child:hover .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        border-bottom: none
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-busca[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 31px;
+        height: 31px;
+        text-indent: -9999em;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_white.png) no-repeat 0 0;
+        margin: 24px 20px 0 0
+    }
+    header[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] {
+        display: none;
+        position: absolute;
+        left: 0;
+        bottom: -66px;
+        width: 100%;
+        height: auto;
+        background: #004186;
+        padding: 0 20px 10px;
+        z-index: 5555
+    }
+    header[_ngcontent-serverApp-c51] #exibe-busca.aberto[_ngcontent-serverApp-c51] {
+        display: block
+    }
+    header[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] input.busca[_ngcontent-serverApp-c51] {
+        width: 86%;
+        height: 56px;
+        float: left;
+        margin: 0;
+        padding: 5px 5px 5px 16px;
+        -webkit-border-top-left-radius: 4px;
+        -webkit-border-bottom-left-radius: 4px;
+        -moz-border-radius-topleft: 4px;
+        -moz-border-radius-bottomleft: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px
+    }
+    header[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] button.lupa[_ngcontent-serverApp-c51] {
+        width: 14%;
+        height: 56px;
+        background: #fff url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_blue.png) no-repeat 50%;
+        float: right;
+        padding: 0;
+        -webkit-border-top-right-radius: 4px;
+        -webkit-border-bottom-right-radius: 4px;
+        -moz-border-radius-topright: 4px;
+        -moz-border-radius-bottomright: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        text-align: left;
+        text-indent: -9999em;
+        cursor: pointer
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-entrar[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 28px;
+        height: 28px;
+        text-indent: -9999em;
+        background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.2 10.8V9.4H8.3V7.3H9.7V9.4H11.8V10.8H9.7V12.9H8.3V10.8H6.2Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.2 0.7H13.8V0H15.2V0.7H16.6C17.3732 0.7 18 1.3268 18 2.1V14.6C18 15.3732 17.3732 16 16.6 16H1.4C0.626801 16 0 15.3732 0 14.6V2.1C0 1.3268 0.626801 0.7 1.4 0.7H2.8V0H4.2V0.7ZM2.8 2.8H4.2V2.09999H13.8V2.8H15.2V2.09999H16.6V4.2H1.4V2.09999H2.8V2.8ZM1.4 5.6V14.6H16.6V5.6H1.4Z" fill="white"/></svg>') no-repeat top;
+        background-size: 100% auto;
+        text-align: left;
+        margin: 28px 25px 0 0
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-tel[_ngcontent-serverApp-c51] {
+        display: block;
+        width: auto;
+        height: auto;
+        background: #91d8f6 url('data:image/svg+xml;utf8,<svg viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.1633 16.7411C18.9737 15.91 18.9737 14.8018 18.1633 13.992L15.9453 11.7757C15.5614 11.3708 15.0922 11.1577 14.5804 11.1577C14.0899 11.1577 13.6207 11.3708 13.2155 11.7757L11.9359 13.0544C11.8292 12.9904 11.7226 12.9478 11.616 12.8839C11.4667 12.8199 11.3387 12.7347 11.2108 12.6708C10.0165 11.9249 8.92882 10.9233 7.90514 9.66598C7.3933 9.02666 7.05207 8.4939 6.81748 7.93982C7.13738 7.64147 7.45728 7.32182 7.75585 7.02347C7.86249 6.91692 7.99044 6.78905 8.09708 6.6825C8.50228 6.2776 8.73688 5.78746 8.73688 5.29731C8.73688 4.80717 8.52361 4.33834 8.09708 3.91213L7.00942 2.80398C6.88146 2.67612 6.7535 2.54825 6.64687 2.42039C6.41227 2.16466 6.15635 1.90894 5.90044 1.67452C5.51656 1.29093 5.04737 1.07782 4.55686 1.07782C4.06634 1.07782 3.59716 1.29093 3.19195 1.67452L1.80572 3.0597C1.29388 3.57116 0.995309 4.18916 0.931329 4.91372C0.846023 6.0858 1.18725 7.17264 1.44317 7.8972C2.08297 9.64467 3.06399 11.2856 4.5142 13.033C6.28431 15.1428 8.39565 16.7837 10.8056 17.9558C11.7226 18.4033 12.9596 18.9148 14.3458 19C14.4311 19 14.5164 19 14.6017 19C15.5187 19 16.3078 18.659 16.905 17.9984L16.9263 17.9771C17.1396 17.7214 17.3742 17.487 17.6301 17.2525C17.822 17.1034 17.9926 16.9329 18.1633 16.7411ZM16.905 16.5067C16.6491 16.7624 16.3718 17.0181 16.1372 17.3165C15.732 17.764 15.2415 17.9558 14.623 17.9558C14.559 17.9558 14.4951 17.9558 14.4311 17.9558C13.2368 17.8492 12.1278 17.4017 11.2747 16.9968C8.9928 15.8887 7.00942 14.333 5.34594 12.3511C3.98104 10.7102 3.06399 9.17583 2.44552 7.53492C2.06164 6.53333 1.93368 5.74483 1.99766 5.02028C2.04031 4.55144 2.23225 4.16785 2.55215 3.82688L3.91706 2.46301C4.109 2.27121 4.32226 2.16466 4.53553 2.16466C4.79145 2.16466 5.00472 2.31384 5.154 2.46301C5.40992 2.69743 5.62319 2.93184 5.87911 3.18757C6.00707 3.31543 6.13503 3.4433 6.26299 3.57116L7.35065 4.658C7.56391 4.8711 7.67055 5.08421 7.67055 5.29731C7.67055 5.51042 7.56391 5.72352 7.35065 5.93663C7.24401 6.04318 7.11605 6.17105 7.00942 6.2776C6.66819 6.61857 6.34829 6.93823 6.00707 7.25788L5.98574 7.27919C5.64452 7.62016 5.7085 7.96113 5.77248 8.17424C5.77248 8.19555 5.77248 8.19555 5.7938 8.21686C6.07105 8.8988 6.47625 9.55942 7.09473 10.3266C8.20371 11.6905 9.37668 12.756 10.6563 13.5658C10.8269 13.6724 10.9975 13.7576 11.1468 13.8428C11.2961 13.9068 11.424 13.992 11.552 14.056C11.5733 14.056 11.5733 14.0773 11.5946 14.0773C11.7226 14.1412 11.8506 14.1838 11.9785 14.1838C12.2984 14.1838 12.5117 13.9707 12.5757 13.9068L13.9619 12.5216C14.0899 12.3937 14.3245 12.2232 14.5804 12.2232C14.8363 12.2232 15.0282 12.3937 15.1775 12.5216L17.3955 14.7379C17.9073 15.2493 17.6727 15.7182 17.3742 16.0165C17.2462 16.187 17.0756 16.3362 16.905 16.5067ZM10.7629 3.86951C10.8056 3.57116 11.0828 3.37936 11.3814 3.44329C12.661 3.6564 13.8126 4.2531 14.7297 5.19076C15.6467 6.12842 16.2439 7.27919 16.4784 8.53652C16.5211 8.83487 16.3292 9.1119 16.0519 9.15452C16.0306 9.15452 15.9879 9.15452 15.9666 9.15452C15.7107 9.15452 15.4761 8.96273 15.4334 8.707C15.2628 7.66278 14.751 6.6825 13.9832 5.93663C13.2155 5.16945 12.2558 4.67931 11.2108 4.48751C10.8909 4.44489 10.6989 4.16785 10.7629 3.86951ZM18.867 8.55783C18.5471 6.6825 17.6514 4.97765 16.3078 3.61378C14.9429 2.2499 13.2368 1.37617 11.3601 1.05651C11.0615 1.01389 10.8695 0.736855 10.9335 0.438507C10.9975 0.140159 11.2534 -0.0516359 11.552 0.0122957C13.6207 0.353265 15.5401 1.33355 17.0543 2.8466C18.5685 4.35965 19.5708 6.2776 19.912 8.36603C19.9547 8.66438 19.7627 8.94142 19.4855 8.98404C19.4642 8.98404 19.4215 8.98404 19.4002 8.98404C19.1443 9.00535 18.9097 8.81355 18.867 8.55783Z" fill="rgba(0,65,134,1)"/></svg>') no-repeat 4px;
+        background-size: 22px auto;
+        text-align: left;
+        margin: 18px 14px 0 0;
+        padding: 8px 10px 8px 32px;
+        color: #004186;
+        font-size: .6em;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 4px
+    }
+    header[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-tel[_ngcontent-serverApp-c51] span[_ngcontent-serverApp-c51] {
+        display: block;
+        font-size: 1.5em
+    }
+    header.unidade[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 100%;
+        height: 120px;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_header_unidade.gif) repeat-x 0 0;
+        overflow: visible;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999
+    }
+    header.unidade[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] {
+        color: #fff
+    }
+    header.unidade[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a#abrelocal[_ngcontent-serverApp-c51] {
+        color: #fff;
+        font-weight: 700;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat 100%
+    }
+    header.unidade[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_white.png) no-repeat 100%!important
+    }
+    header.unidade[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] img.logo[_ngcontent-serverApp-c51] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 110px;
+        height: auto
+    }
+    header.unidade[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-entrar[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 28px;
+        height: 28px;
+        text-indent: -9999em;
+        background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.2 10.8V9.4H8.3V7.3H9.7V9.4H11.8V10.8H9.7V12.9H8.3V10.8H6.2Z" fill="rgb(0, 65, 134)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.2 0.7H13.8V0H15.2V0.7H16.6C17.3732 0.7 18 1.3268 18 2.1V14.6C18 15.3732 17.3732 16 16.6 16H1.4C0.626801 16 0 15.3732 0 14.6V2.1C0 1.3268 0.626801 0.7 1.4 0.7H2.8V0H4.2V0.7ZM2.8 2.8H4.2V2.09999H13.8V2.8H15.2V2.09999H16.6V4.2H1.4V2.09999H2.8V2.8ZM1.4 5.6V14.6H16.6V5.6H1.4Z" fill="rgb(0, 65, 134)"/></svg>') no-repeat 0 0;
+        background-size: 100% auto;
+        text-align: left;
+        margin: 28px 25px 0 0
+    }
+    header.unidade[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-busca[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 31px;
+        height: 31px;
+        text-indent: -9999em;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_blue.png) no-repeat 0 0;
+        background-size: 32px auto;
+        margin: 24px 20px 0 0
+    }
+    header.unidade[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-menu[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 28px;
+        height: 28px;
+        text-indent: -9999em;
+        background: url('data:image/svg+xml;utf8,<svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.11479 8.52476C0.11479 8.05137 0.498546 7.66761 0.971933 7.66761H18.0282C18.5016 7.66761 18.8854 8.05137 18.8854 8.52476C18.8854 8.99814 18.5016 9.3819 18.0282 9.3819H0.971933C0.498546 9.3819 0.11479 8.99814 0.11479 8.52476Z" fill="rgb(0, 65, 134)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0.11479 15.3473C0.11479 14.8739 0.498546 14.4901 0.971933 14.4901H18.0282C18.5016 14.4901 18.8854 14.8739 18.8854 15.3473C18.8854 15.8206 18.5016 16.2044 18.0282 16.2044H0.971933C0.498546 16.2044 0.11479 15.8206 0.11479 15.3473Z" fill="rgb(0, 65, 134)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0.114685 1.70211C0.114685 1.22873 0.498441 0.844971 0.971828 0.844971H18.0281C18.5015 0.844971 18.8853 1.22873 18.8853 1.70211C18.8853 2.1755 18.5015 2.55926 18.0281 2.55926H0.971828C0.498441 2.55926 0.114685 2.1755 0.114685 1.70211Z" fill="rgb(0, 65, 134)"/></svg>') no-repeat 0 0;
+        background-size: 100% auto;
+        margin: 28px 0 0
+    }
+    header.unidade[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] {
+        display: none;
+        position: absolute;
+        left: 0;
+        bottom: -66px;
+        width: 100%;
+        height: auto;
+        background: #fff;
+        padding: 0 20px 10px;
+        z-index: 5555
+    }
+    header.unidade[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] input.busca[_ngcontent-serverApp-c51] {
+        width: 86%;
+        height: 56px;
+        float: left;
+        margin: 0;
+        padding: 5px 5px 5px 16px;
+        -webkit-border-top-left-radius: 4px;
+        -webkit-border-bottom-left-radius: 4px;
+        -moz-border-radius-topleft: 4px;
+        -moz-border-radius-bottomleft: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-left: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc
+    }
+    header.unidade[_ngcontent-serverApp-c51] #exibe-busca[_ngcontent-serverApp-c51] button.lupa[_ngcontent-serverApp-c51] {
+        width: 14%;
+        height: 56px;
+        background: #fff url(https://www.rededorsaoluiz.com.br/assets/imgs/ico_busca_desktop_blue.png) no-repeat 50%;
+        float: right;
+        padding: 0;
+        -webkit-border-top-right-radius: 4px;
+        -webkit-border-bottom-right-radius: 4px;
+        -moz-border-radius-topright: 4px;
+        -moz-border-radius-bottomright: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        text-align: left;
+        text-indent: -9999em;
+        cursor: pointer;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc
+    }
+    header.onco[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_header_onco.png) repeat-x 0 0!important
+    }
+    header.onco[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a#abrelocal[_ngcontent-serverApp-c51] {
+        color: #75bfba
+    }
+    header.onco[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] .logo[_ngcontent-serverApp-c51] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        width: 120px;
+        height: 90px
+    }
+    header.onco[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover, header.onco[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover, header.onco[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover, header.onco[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #91d8f6
+    }
+    header.clinica[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_header_clinicas.png) repeat-x 0 0!important
+    }
+    header.clinica[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] {
+        color: #fff
+    }
+    header.clinica[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a#abrelocal[_ngcontent-serverApp-c51] {
+        color: #75bfba;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat 100%
+    }
+    header.clinica[_ngcontent-serverApp-c51] .up-header[_ngcontent-serverApp-c51] .local[_ngcontent-serverApp-c51] a.aberto[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropup_white.png) no-repeat 100%!important
+    }
+    header.clinica[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] .logo[_ngcontent-serverApp-c51] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        width: 120px;
+        height: 90px
+    }
+    header.clinica[_ngcontent-serverApp-c51] .main-header[_ngcontent-serverApp-c51] a.ico-menu[_ngcontent-serverApp-c51] {
+        display: block;
+        width: 28px;
+        height: 28px;
+        text-indent: -9999em;
+        background: url('data:image/svg+xml;utf8,<svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.11479 8.52476C0.11479 8.05137 0.498546 7.66761 0.971933 7.66761H18.0282C18.5016 7.66761 18.8854 8.05137 18.8854 8.52476C18.8854 8.99814 18.5016 9.3819 18.0282 9.3819H0.971933C0.498546 9.3819 0.11479 8.99814 0.11479 8.52476Z" fill="rgb(0, 65, 134)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0.11479 15.3473C0.11479 14.8739 0.498546 14.4901 0.971933 14.4901H18.0282C18.5016 14.4901 18.8854 14.8739 18.8854 15.3473C18.8854 15.8206 18.5016 16.2044 18.0282 16.2044H0.971933C0.498546 16.2044 0.11479 15.8206 0.11479 15.3473Z" fill="rgb(0, 65, 134)"/>    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.114685 1.70211C0.114685 1.22873 0.498441 0.844971 0.971828 0.844971H18.0281C18.5015 0.844971 18.8853 1.22873 18.8853 1.70211C18.8853 2.1755 18.5015 2.55926 18.0281 2.55926H0.971828C0.498441 2.55926 0.114685 2.1755 0.114685 1.70211Z" fill="rgb(0, 65, 134)"/></svg>') no-repeat 0 0;
+        background-size: 100% auto;
+        margin: 28px 0 0
+    }
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #004186
+    }
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #91d8f6
+    }
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] .hasSubItem[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        display: inline-block;
+        padding: 0 20px 10px 0;
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_blue.png) no-repeat right 5px
+    }
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-principal[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #91d8f6
+    }
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51]:last-child a[_ngcontent-serverApp-c51] {
+        background: url(https://www.rededorsaoluiz.com.br/assets/imgs/bg_dropdown_white.png) no-repeat 100%
+    }
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51] {
+        color: #fff
+    }
+    header.clinica[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] .submenu[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover, header.clinica[_ngcontent-serverApp-c51] ul.menu-sec[_ngcontent-serverApp-c51] li[_ngcontent-serverApp-c51] a[_ngcontent-serverApp-c51]:hover {
+        color: #91d8f6
+    }
+}
